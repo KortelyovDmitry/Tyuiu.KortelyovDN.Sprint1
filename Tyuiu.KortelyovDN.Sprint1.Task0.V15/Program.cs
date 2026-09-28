@@ -1,2 +1,34 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace  Tyuiu.KortelyovDN.Sprint1.Task0.V15;
+using Tyuiu.KortelyovDN.Sprint1.Task0.V15.Lib;
+
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            DataService ds = new DataService();
+
+            Console.Title = "Спринт #1 | Выполнил: Кортелёв Д.Н. | ПИНб-26-1";
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* Спринт #1                                                               *");
+            Console.WriteLine("* Тема: Создания итогового решения по спринту                             *");
+            Console.WriteLine("* Задание #0                                                              *");
+            Console.WriteLine("* Вариант #15                                                             *");
+            Console.WriteLine("* Выполнил: Кортелёв Дмитрий Николаевич | ПИНб-26-1                       *");
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* УСЛОВИЕ:                                                                *");
+            Console.WriteLine("* Написать программу, которая вычисляет значение выражения 20-(2*2-8)     *");
+            Console.WriteLine("* и печатает результат на экране                                          *");
+            Console.WriteLine("*                                                                         *");
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* 20-(2*2-8)                                                              *");
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* РЕЗУЛЬТАТЖ                                                              *");
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine(ds.Calculate());
+
+            Console.ReadLine();
+        }
+    }
