@@ -1,7 +1,7 @@
 ﻿using Tyuiu.KortelyovDN.Sprint1.Task0.V15.Lib;
 
 namespace Tyuiu.KortelyovDN.Sprint1.Task0.V15.Test
-{ 
+{
     [TestClass]
     public class DataServiceTest
     {
