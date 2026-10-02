@@ -1,4 +1,4 @@
-﻿using System;
+﻿
 using tyuiu.cources.programming.interfaces.Sprint1;
 
 namespace Tyuiu.KortelyovDN.Sprint1.Task6.V10.Lib
