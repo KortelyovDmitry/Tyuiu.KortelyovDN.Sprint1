@@ -1,4 +1,5 @@
-﻿using Tyuiu.KortelyovDN.Sprint1.Task6.V10.Lib;
+﻿
+using Tyuiu.KortelyovDN.Sprint1.Task6.V10.Lib;
 namespace Tyuiu.KortelyovDN.Sprint1.Task6.V10
 {
     class Program
@@ -12,13 +13,15 @@ namespace Tyuiu.KortelyovDN.Sprint1.Task6.V10
             Console.WriteLine("***************************************************************************");
 
             Console.WriteLine("Введите строку");
-            string str = Console.ReadLine();
+            string value = Console.ReadLine();
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine(ds.DeleteMiddleLetter);
+            string res = ds.DeleteMiddleLetter(value);
+
+            Console.WriteLine(res);
 
             Console.ReadKey();
         }
