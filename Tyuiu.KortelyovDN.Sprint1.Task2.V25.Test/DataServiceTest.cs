@@ -10,7 +10,7 @@ namespace Tyuiu.KortelyovDN.Sprint1.Task2.V25.Test
             DataService ds = new DataService();
             int x = 1;
             var res = ds.ConvertRadsToDegrees(x);
-            Assert.AreEqual(57.296, res);
+            Assert.AreEqual(57.2961, res);
         }
     }
 }
