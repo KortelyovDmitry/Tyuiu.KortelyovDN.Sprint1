@@ -5,7 +5,7 @@ namespace Tyuiu.KortelyovDN.Sprint1.Task3.V7.Lib
     {
         public double VerstsToKilometers(double verst)
         {
-            return verst * 1.0686;
+            return verst * 1.0668;
         }
     }
 }

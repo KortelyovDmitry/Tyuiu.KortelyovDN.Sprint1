@@ -9,7 +9,7 @@ namespace Tyuiu.KortelyovDN.Sprint1.Task3.V7.Test
         {
             DataService ds = new DataService();
             double x = 100;
-            double wait = 106.86;
+            double wait = 106.68;
             var res = ds.VerstsToKilometers(x);
             Assert.AreEqual(wait, res); 
         }
